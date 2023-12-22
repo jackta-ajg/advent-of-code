@@ -1,0 +1,11 @@
+1) For every line, extract card game number (not really needed for anything),
+  the winning numbers, and the playing numbers.
+
+2) Loop through the playing numbers and if the playing number is inside
+  the winning numbers, add to won numbers array. (Technically can just add to
+  a `match` counter variable to denote how many winning numbers were found, but
+  maybe the actual won number itself would be good to have if part 2 requires it.
+
+3) Loop through every card game's result, and for every match, multiply an
+  accumulator that starts at `1` with `2` and then add that result to a global
+  sum accumulator.
