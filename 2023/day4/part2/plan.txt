@@ -1,0 +1,26 @@
+1) Process card games into an array of `CardGame` objects:
+
+  {
+    game: number;
+    winningNumbers: number[];
+    playingNumbers: number[];
+    numberOfWonNumbers: number;
+  }
+
+2) Loop through card games and create a dictionary
+    to hold the number of copies per each scratchcard
+
+  {
+    game: number;
+    winningNumbers: number[];
+    playingNumbers: number[];
+    numberOfWonNumbers: number;
+    numberOfScratchcard: number;
+  }
+
+3) Loop through card games and sum the `numberOfCopies`
+
+
+IDEA: Add CardGame objects to an array to process and when going through that array,
+      you add more CardGame objects to process if there are copies of it and remove
+      it when it has been processed.
