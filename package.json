@@ -1,0 +1,30 @@
+{
+  "name": "jack-ta-advent-of-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "day1": "ts-node 2023/day1/solution.ts",
+    "day2-pt1": "ts-node 2023/day2/part1/solution.ts",
+    "day2-pt2": "ts-node 2023/day2/part2/solution.ts",
+    "day3-pt1": "ts-node 2023/day3/part1/solution.ts",
+    "day3-pt2": "ts-node 2023/day3/part2/solution.ts",
+    "day4-pt1": "ts-node 2023/day4/part1/solution.ts",
+    "day4-pt2": "ts-node 2023/day4/part2/solution.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gallaghercp/advent-of-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gallaghercp/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/gallaghercp/advent-of-code#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
